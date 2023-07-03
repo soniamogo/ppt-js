@@ -1,0 +1,71 @@
+#tablero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 138, 254);
+    border-radius: 30px;
+    height: 97vh;
+}
+
+#jugadores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;  
+}
+
+.jugador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dos{
+    opacity: 0;
+}
+
+.cajaNombre{
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 3px;
+}
+
+.dos{
+    opacity: 0;
+}
+
+#jugar{
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 10px;
+    border:2px solid black;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#resultado{
+    min-width: 100px;
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 50px;
+    border:2px solid black;
+    text-align: center;
+    background-color: aliceblue;
+}
+img{
+    width: 200px;
+}
+
+.cajaNombre:nth-child(2){
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    margin: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="author" content="Sonia Mondéjar">
+    <meta name="description" content="Piedra, papel, tijera (1 jugador)">
+    <title>Piedra, papel, tijera (1 jugador)</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <script type="text/javascript" src="juego2.js"></script>
+  </head>
+
+  <body>
+    <div id="tablero">
+      <div id="jugadores">
+          <div class="jugador">
+              <div><img id="imgJug1" src="images/piedra.png" alt="Selección jugador 1"></div>
+              <div class="cajaNombre">Jugador 1</div>
+              <div class="cajaNombre" onclick="cambiarSeleccion(1, 'piedra')">Piedra</div>
+              <div class="cajaNombre" onclick="cambiarSeleccion(1, 'papel')">Papel</div>
+              <div class="cajaNombre" onclick="cambiarSeleccion(1, 'tijera')">Tijera</div>
+
+          </div>
+          <div id="dos" class="jugador">
+              <div><img id="imgJug2" src="images/papel.png" alt="Selección jugador 2"></div>
+              <div class="cajaNombre">Jugador 2</div>
+              <div class="cajaNombre dos" onclick="cambiarSeleccion(2, 'piedra')">Piedra</div>
+              <div class="cajaNombre dos" onclick="cambiarSeleccion(2, 'papel')">Papel</div>
+              <div class="cajaNombre dos" onclick="cambiarSeleccion(2, 'tijera')">Tijera</div>
+          </div>
+      </div>
+      <div id="jugar">Jugada 1</div>
+      <div id="resultado">Resultado</div>
+      <a href="index.html">Volver a la pantalla principal</a>
+    </div>
+  </body>
+</html>
